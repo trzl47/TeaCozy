@@ -1,0 +1,20 @@
+header {
+	display: inline-flex;
+	background-color:black;
+	position: fixed;
+}
+
+.logo {
+	display: inline-flex;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	justify-content: flex-start;
+}
+
+nav {
+	display: inline-flex;
+}
