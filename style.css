@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
 	margin: 0;
 	font-family: "Helvetica", sans-serif;
@@ -11,6 +12,15 @@ a {
 	color: seashell;
 }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+  color: seashell;
+}
+/* ./ Global Styles */
+
+/* Header Styles */
+
 header {
 	display: flex;
 	background-color:black;
@@ -19,6 +29,12 @@ header {
 	border-bottom: 1px solid seashell;
 	width: 100%;
 	align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -38,4 +54,29 @@ nav {
 
 nav span {
 	display: inline-block;
+}
+/* ./Header Styles */
+
+/* Main Section */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Section */
+
+#hero {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+  margin: auto;
+}
+
+#hero .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
