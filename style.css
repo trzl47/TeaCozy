@@ -37,6 +37,7 @@ header {
 	border-bottom: 1px solid seashell;
 	width: 100%;
 	align-items: center;
+	z-index: 1;
 }
 
 /*.container {
